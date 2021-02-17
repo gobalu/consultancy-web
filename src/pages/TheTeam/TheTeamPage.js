@@ -1,12 +1,11 @@
 import React, { Fragment } from "react";
 
-
-const AboutPage = () => (
+const TheTeamPage = () => (
   <Fragment>
     <div>
-      <h1>About</h1>
+      <h1>Team</h1>
     </div>
   </Fragment>
 );
 
-export default AboutPage;
+export default TheTeamPage;

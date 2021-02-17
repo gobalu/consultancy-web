@@ -1,0 +1,13 @@
+.center {
+  text-align: center;
+  font-size: 50px;
+}
+.ptop {
+  padding-top: 15px;
+}
+.bgColorWhite {
+  background-color: #fff !important;
+}
+.height {
+  height: 150px;
+}

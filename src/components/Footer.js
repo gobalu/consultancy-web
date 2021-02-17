@@ -1,6 +1,7 @@
+import React from "react";
+import "./Footer.css";
 import Typography from "@material-ui/core/Typography";
 import CopyrightIcon from "@material-ui/icons/Copyright";
-import React from "react";
 import "./Footer.css";
 
 const Footer = () => {
@@ -17,18 +18,18 @@ const Footer = () => {
       <div class="social-footer-icons">
         <ul class="menu simple">
           <li>
-            <a href="https://www.facebook.com/">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
+            <a href="https://www.linkedin.com/">
+              <i class="fa fa-linkedin"></i>
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/?hl=en">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-github" aria-hidden="true"></i>
             </a>
           </li>
           <li>
             <a href="https://www.pinterest.com/">
-              <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+              <i class="fa fa-" aria-hidden="true"></i>
             </a>
           </li>
           <li>

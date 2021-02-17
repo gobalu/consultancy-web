@@ -2,28 +2,35 @@ import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Footer from "./components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // NAVIGATION
-import Nav from "./components/Nav";
+import Navigation from "./components/Navigation";
 // PAGES
 import Home from "./pages/Home/HomePage";
-import About from "./pages/About/AboutPage";
+import Team from "./pages/TheTeam/TheTeamPage";
 import Contact from "./pages/Contact/ContactPage";
 import Projects from "./pages/Projects/ProjectsPage";
+import Tech from "./pages/Technology/TechnologyPage";
 
 import "./index.css";
 
 const App = () => (
-  <div>
-    <Nav />
+  <>
+    <div>
+      <Navigation />
+    </div>
     <div className="container">
       <Route exact={true} path="/" component={Home} />
-      <Route exaxt path="/about" component={About} />
+      <Route exaxt path="/team" component={Team} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/projects" component={Projects} />
+      <Route exact path="/tech" component={Tech} />
     </div>
-    <Footer />
-  </div>
+    <div>
+      <Footer />
+    </div>
+  </>
 );
 
 render(
