@@ -2,11 +2,12 @@
   color: #222 !important;
   opacity: 0.55;
   text-decoration: none;
+  z-index: 1;
 }
 
 .nav .linkItems:hover {
   color: black;
-  opacity: 1;
+  opacity: 2;
   -moz-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
@@ -16,7 +17,7 @@
   -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   text-decoration: none;
-  font-size: 20px;
+  font-weight: 700;
 }
 
 :link,
