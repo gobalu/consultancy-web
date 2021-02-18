@@ -10,7 +10,7 @@
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   flex-direction: row;
-  position: fixed;
+
   bottom: 0;
   width: 100%;
 }

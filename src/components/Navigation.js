@@ -7,7 +7,7 @@ import "./Navigation.css";
 
 const Navigation = () => {
   return (
-    <Navbar className="nav" bg="light" expand="lg">
+    <Navbar sticky="top" className="nav" bg="light" expand="lg">
       <Navbar.Brand>
         <NavLink className="linkItems" to="/">
           Balu Technologies

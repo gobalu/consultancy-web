@@ -20,7 +20,8 @@ const App = () => (
     <div>
       <Navigation />
     </div>
-    <div className="container">
+
+    <div>
       <Route exact={true} path="/" component={Home} />
       <Route exaxt path="/team" component={Team} />
       <Route exact path="/contact" component={Contact} />
