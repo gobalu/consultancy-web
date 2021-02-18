@@ -13,7 +13,7 @@ const HomePage = () => (
         <Col>
           <Jumbotron className="bgColorWhite" fluid>
             <Container>
-              <h1>Title crap goes here</h1>
+              <h1>Title</h1>
               <p className="ptop">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy

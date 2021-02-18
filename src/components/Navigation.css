@@ -3,6 +3,7 @@
   opacity: 0.55;
   text-decoration: none;
   z-index: 1;
+  font-size: 0.8rem;
 }
 
 .nav .linkItems:hover {
@@ -18,11 +19,13 @@
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   text-decoration: none;
   font-weight: 700;
+  font-size: 0.8rem;
 }
 
 :link,
 :visited {
   color: #222;
+  font-size: 0.8rem;
 }
 
 .opacity {
