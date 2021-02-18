@@ -14,23 +14,24 @@ import Projects from "./pages/Projects/ProjectsPage";
 import Tech from "./pages/Technology/TechnologyPage";
 
 import "./index.css";
+import { Container } from "react-bootstrap";
 
 const App = () => (
   <>
-    <div>
+    <Container className="pnone" fluid>
       <Navigation />
-    </div>
 
-    <div>
-      <Route exact={true} path="/" component={Home} />
-      <Route exaxt path="/team" component={Team} />
-      <Route exact path="/contact" component={Contact} />
-      <Route exact path="/projects" component={Projects} />
-      <Route exact path="/tech" component={Tech} />
-    </div>
-    <div>
-      <Footer />
-    </div>
+      <div>
+        <Route exact={true} path="/" component={Home} />
+        <Route exaxt path="/team" component={Team} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/tech" component={Tech} />
+      </div>
+      <div>
+        <Footer />
+      </div>
+    </Container>
   </>
 );
 

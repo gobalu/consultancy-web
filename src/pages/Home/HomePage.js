@@ -25,14 +25,14 @@ const HomePage = () => (
             <Col sm={8}>
               <Jumbotron className="bgLightGrey" fluid>
                 <Container>
-                  <h1>Bespoke Software Development</h1>
-                  <p className="ptop">
+                  <h1 className="white">Bespoke Software Development</h1>
+                  <p className="white ptop">
                     We partner with a fantastic variety of clients. Using
                     cutting edge technology, specialist skills and a passion for
                     success, we produce software experiences that look great and
                     deliver on their goals.
                   </p>
-                  <Button className="buttonBespoke" variant="dark">
+                  <Button className="buttonBespoke" variant="light">
                     Projects
                   </Button>
                 </Container>

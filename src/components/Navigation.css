@@ -1,18 +1,19 @@
 .nav {
-  color: #222 !important;
-  opacity: 0.55;
+  color: #fff !important;
+  opacity: 1;
   text-decoration: none;
   font-size: 0.8rem;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   align-self: flex-start;
+  background-color: #1f487e !important;
 }
 
 .nav .linkItems:hover,
 .droptown-toggle a:hover {
-  color: black;
-  opacity: 1;
+  color: rgb(0, 0, 0) !important;
+  opacity: 0.55;
   -moz-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
@@ -27,7 +28,7 @@
 
 :link,
 :visited {
-  color: #222;
+  color: #fff;
   font-size: 0.8rem;
 }
 
@@ -36,5 +37,9 @@
 }
 
 a:hover {
-  color: black !important;
+  color: #fff !important;
+}
+
+.dropdown-menu {
+  background-color: #1f487e;
 }

@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer class="social-footer">
       <div class="social-footer-left">
-        <Typography className="opacity" variant="subtitle2" gutterBottom>
+        <Typography className="white" variant="subtitle2" gutterBottom>
           Copyright Balu Technologies 2021
           <sup>
             <CopyrightIcon className="copyright-icon" />
