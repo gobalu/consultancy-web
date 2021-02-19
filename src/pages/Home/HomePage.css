@@ -1,25 +1,16 @@
-.center {
-  text-align: center;
-  font-size: 50px;
-}
 .ptop {
-  padding-top: 15px;
+  padding-top: 45px;
 }
-.bgColorWhite {
-  background-color: #fff !important;
-}
-.bgLightGrey {
-  background-color: #829cbc !important;
+
+.bgTransparent {
+  background-color: transparent !important;
 }
 .height {
   height: 150px;
 }
-.hero {
-  background-color: rgb(61, 59, 59);
-  width: 100%;
-  height: 300px;
+.bgColorWhite {
+  background-color: #faf9f9;
 }
-
 .buttonPeople {
   padding-top: 1rem;
   display: flex;
@@ -43,4 +34,43 @@
 }
 .pnone {
   padding: 0 !important;
+}
+
+.darkText {
+  color: black;
+}
+.height {
+  height: 670px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+.centerText {
+  margin: 0 auto;
+  padding-top: 50px;
+  font-size: 4rem !important;
+}
+.heroText {
+  font-size: 20px !important;
+  color: #fff;
+  padding-top: 40px;
+}
+.white {
+  color: #fff;
+}
+
+.ptop50 {
+  padding-top: 50px;
+}
+.ptop250 {
+  padding-top: 250px;
+}
+
+.pbottom250 {
+  padding-bottom: 290px;
+}
+
+.paddinglr {
+  padding-left: 250px;
+  padding-right: 250px;
 }

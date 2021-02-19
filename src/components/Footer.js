@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer class="social-footer">
       <div class="social-footer-left">
-        <Typography className="white" variant="subtitle2" gutterBottom>
+        <Typography variant="subtitle2" gutterBottom>
           Copyright Balu Technologies 2021
           <sup>
             <CopyrightIcon className="copyright-icon" />
@@ -27,14 +27,10 @@ const Footer = () => {
               <i class="fa fa-github" aria-hidden="true"></i>
             </a>
           </li>
-          <li>
-            <a href="https://www.pinterest.com/">
-              <i class="fa fa-" aria-hidden="true"></i>
-            </a>
-          </li>
+
           <li>
             <a href="https://twitter.com/?lang=en">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </li>
         </ul>

@@ -18,16 +18,14 @@ import { Container } from "react-bootstrap";
 
 const App = () => (
   <>
+    <Navigation />
     <Container className="pnone" fluid>
-      <Navigation />
+      <Route exact={true} path="/" component={Home} />
+      <Route exaxt path="/team" component={Team} />
+      <Route exact path="/contact" component={Contact} />
+      <Route exact path="/projects" component={Projects} />
+      <Route exact path="/tech" component={Tech} />
 
-      <div>
-        <Route exact={true} path="/" component={Home} />
-        <Route exaxt path="/team" component={Team} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/tech" component={Tech} />
-      </div>
       <div>
         <Footer />
       </div>

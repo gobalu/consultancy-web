@@ -7,7 +7,7 @@ import "./Navigation.css";
 
 const Navigation = () => {
   return (
-    <Navbar sticky="top" className="nav" bg="light" expand="lg">
+    <Navbar className="nav" bg="light" expand="lg">
       <Navbar.Brand>
         <NavLink className="linkItems" to="/">
           Balu Technologies
@@ -15,8 +15,7 @@ const Navigation = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto"> </Nav>
-
+        <Nav className="mr-auto"></Nav>
         <NavDropdown
           className="linkItems"
           title="About us"

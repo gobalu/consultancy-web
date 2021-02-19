@@ -8,46 +8,36 @@ import Image from "react-bootstrap/Image";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
+import { NavLink } from "react-router-dom";
+import bgimage from "./Assets/bgimage.jpg";
 
 const HomePage = () => (
   <>
-    <Col className="pnone">
-      <Jumbotron className="bgLightGrey" fluid>
-        <Container className="bgLightGrey">
-          <Row>
-            <Col className="pnone" sm={2}>
-              <Image
-                className="center"
-                src="https://rocketmakers-cosmos-api.herokuapp.com/upload/340d2e8e-9c5a-429b-a1ce-ddf857de8bf7"
-                roundedCircle
-              />
-            </Col>
-            <Col sm={8}>
-              <Jumbotron className="bgLightGrey" fluid>
-                <Container>
-                  <h1 className="white">Bespoke Software Development</h1>
-                  <p className="white ptop">
-                    We partner with a fantastic variety of clients. Using
-                    cutting edge technology, specialist skills and a passion for
-                    success, we produce software experiences that look great and
-                    deliver on their goals.
-                  </p>
-                  <Button className="buttonBespoke" variant="light">
-                    Projects
-                  </Button>
-                </Container>
-              </Jumbotron>
-            </Col>
-          </Row>
-        </Container>
-      </Jumbotron>
-    </Col>
+    <Jumbotron
+      className="height"
+      fluid
+      style={{
+        backgroundImage: `url(${bgimage})`,
+        backgroundSize: "cover",
+      }}
+    >
+      <Container className="centerText">
+        <h2 className="white centerText">Innovitive Start Up Solutions</h2>
+        <div>
+          <p className="heroText">
+            We partner with a fantastic variety of clients. Using cutting edge
+            technology, specialist skills and a passion for success, we produce
+            software experiences that look great and deliver on their goals.
+          </p>
+        </div>
+      </Container>
+    </Jumbotron>
 
-    <Container>
+    <Container fluid className="paddinglr ptop250">
       <Row>
         <Col>
           <Jumbotron className="bgColorWhite" fluid>
-            <Container>
+            <Container fluid>
               <h1>Introduction</h1>
               <p className="ptop">
                 Balu Technologies is a team of award winning designers and
@@ -61,6 +51,7 @@ const HomePage = () => (
             </Container>
           </Jumbotron>
         </Col>
+
         <Col>
           <Image
             src="https://images.unsplash.com/photo-1564069114553-7215e1ff1890?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=4178&q=80"
@@ -69,7 +60,7 @@ const HomePage = () => (
         </Col>
       </Row>
     </Container>
-    <Container className="py-5">
+    <Container fluid className="paddinglr pbottom250 ptop250">
       <Row>
         <Col>
           <Image
@@ -78,7 +69,7 @@ const HomePage = () => (
           />
         </Col>
         <Col>
-          <Jumbotron className="bgColorWhite" fluid>
+          <Jumbotron fluid className="bgColorWhite">
             <Container>
               <h1>Our People</h1>
               <p className="ptop">
