@@ -60,7 +60,7 @@ const HomePage = () => (
         </Col>
       </Row>
     </Container>
-    <Container fluid className="paddinglr pbottom250 ptop250">
+    <Container fluid className="paddinglr ptop250">
       <Row>
         <Col>
           <Image
@@ -69,8 +69,8 @@ const HomePage = () => (
           />
         </Col>
         <Col>
-          <Jumbotron fluid className="bgColorWhite">
-            <Container>
+          <Jumbotron className="bgColorWhite pbottom250" fluid>
+            <Container fluid>
               <h1>Our People</h1>
               <p className="ptop">
                 We're a purpose-focused team that works hand-in-hand with our
@@ -79,7 +79,7 @@ const HomePage = () => (
                 our projects with our awesome permanent in-house staff.
               </p>
               <Button className="buttonBespoke" variant="dark">
-                People
+                Tech
               </Button>
             </Container>
           </Jumbotron>
