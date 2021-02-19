@@ -1,0 +1,20 @@
+h2 {
+  font-size: 1.25rem !important;
+  font-weight: 500 !important;
+  line-height: 1.2 !important;
+}
+
+.bio {
+  box-shadow: 0 1.5px 4px rgb(20 0 0 / 20%), 8px -10px 23px hsl(0deg 0% 100% / 90%);
+  margin: 25px 0px 25px 0px;
+}
+
+.vertical-align {
+  display: "flex";
+  align-items: "center";
+}
+
+.horizontal-align {
+  display: "flex";
+  justify-content: "center";
+}
