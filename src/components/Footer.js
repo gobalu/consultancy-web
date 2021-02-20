@@ -6,31 +6,33 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer class="social-footer">
-      <div class="social-footer-left">
-        <Typography variant="subtitle2" gutterBottom>
-          Copyright Balu Technologies 2021
-          <sup>
-            <CopyrightIcon className="copyright-icon" />
-          </sup>
+    <footer className="social-footer">
+      <div className="social-footer-left">
+        <Typography className="copyright" variant="subtitle2" gutterBottom>
+          <p className="copyright">
+            Copyright Balu Technologies 2021
+            <sup>
+              <CopyrightIcon className="copyright-icon" />
+            </sup>
+          </p>
         </Typography>
       </div>
-      <div class="social-footer-icons">
-        <ul class="menu simple">
+      <div className="social-footer-icons">
+        <ul className="menu simple">
           <li>
             <a href="https://www.linkedin.com/">
-              <i class="fa fa-linkedin"></i>
+              <i className="fa fa-linkedin"></i>
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/?hl=en">
-              <i class="fa fa-github" aria-hidden="true"></i>
+              <i className="fa fa-github" aria-hidden="true"></i>
             </a>
           </li>
 
           <li>
             <a href="https://twitter.com/?lang=en">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i className="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </li>
         </ul>

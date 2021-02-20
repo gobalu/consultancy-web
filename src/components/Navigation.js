@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -6,8 +6,33 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Navigation.css";
 
 const Navigation = () => {
+  const [navBackground, setNavBackground] = useState(false);
+  const navRef = useRef();
+  navRef.current = navBackground;
+  useEffect(() => {
+    const handleScroll = () => {
+      const show = window.scrollY > 625;
+      if (navRef.current !== show) {
+        setNavBackground(show);
+      }
+    };
+    document.addEventListener("scroll", handleScroll);
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <Navbar className="nav" bg="light" expand="lg">
+    <Navbar
+      expand="lg"
+      className="nav"
+      variant="dark"
+      style={{
+        transition: "1s ease",
+        backgroundColor: navBackground ? "#000" : "transparent",
+        color: navBackground ? "#000" : "#fff",
+      }}
+    >
       <Navbar.Brand>
         <NavLink className="linkItems" to="/">
           Balu Technologies
