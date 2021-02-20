@@ -1,11 +1,10 @@
 import "./HomePage.css";
 
-import React, { Fragment } from "react";
-
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import React from "react";
 import Row from "react-bootstrap/Row";
 import bgimage from "./Assets/bgimage.jpg";
 
