@@ -21,7 +21,7 @@ const Bio = (props) => {
               display: "flex",
               justifyContent: "center"
             }}>
-              <Image style={{ maxWidth: 128, }} src="https://deaenij3kiw8r.cloudfront.net/system/users/avatars/162205/artist_profile/production-d22d843b02344bb87cf6821961b194ee-DennisSTOCK_PAR121609_1.jpg?1488544161" roundedCircle />
+              <Image style={{ maxWidth: 128, }} src={props.person.profilePicture} roundedCircle />
             </Container>
           </Col>
           <Col xs={4} style={{
@@ -51,7 +51,7 @@ const Bio = (props) => {
               display: "flex",
               alignItems: "center",
             }}>
-              <Image src="https://i.ytimg.com/vi/e2klKMj4JEw/maxresdefault.jpg" rounded />
+              <Image src={props.person.sideImage} rounded />
             </Container>
           </Col>
         </Row>
