@@ -8,6 +8,7 @@
   -ms-flex-align: center;
   align-items: center;
   -webkit-justify-content: space-between;
+  justify-content: space-between;
   -ms-flex-pack: justify;
   flex-direction: row;
   bottom: 0;
