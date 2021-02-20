@@ -5,14 +5,14 @@
   font-size: 0.8rem;
   position: fixed;
   align-self: flex-start;
-  background-color: transparent !important;
   text-decoration: none;
+  width: 100%;
+  z-index: 10000;
 }
 
 .nav .linkItems:hover,
 .droptown-toggle a:hover {
-  color: #fff;
-  opacity: 0.55;
+  text-shadow: 0 0 10px #ffffff;
   -moz-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
@@ -56,5 +56,13 @@ a:hover {
   opacity: 1 !important;
 }
 .dropdown-toggle .nav-link {
+  background-color: transparent;
+}
+
+#collasible-nav-dropdown {
+  background-color: transparent !important;
+}
+
+.dropdown-item:hover {
   background-color: transparent;
 }

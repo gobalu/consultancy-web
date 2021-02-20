@@ -62,10 +62,15 @@
 .ptop50 {
   padding-top: 50px;
 }
+.ptop125 {
+  padding-top: 125px;
+}
 .ptop250 {
   padding-top: 250px;
 }
-
+.pbottom125 {
+  padding-bottom: 125px;
+}
 .pbottom250 {
   padding-bottom: 290px;
 }
@@ -73,4 +78,17 @@
 .paddinglr {
   padding-left: 250px;
   padding-right: 250px;
+}
+.boxshadow {
+  box-shadow: 0 1.5px 4px rgb(20 0 0 / 20%),
+    8px -10px 23px hsl(0deg 0% 100% / 90%);
+}
+
+.paddingLrInner {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.paratext {
+  font-size: 1.4rem;
 }
