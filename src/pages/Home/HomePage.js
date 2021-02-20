@@ -10,8 +10,8 @@ import Row from "react-bootstrap/Row";
 import bgimage from "./Assets/bgimage.jpg";
 
 const HomePage = () => (
-  <>
-    <div className=" pbottom125">
+  <Container className="plr0" fluid>
+    <Container fluid className="pbottom125 plr0">
       <Jumbotron
         className="height"
         fluid
@@ -20,36 +20,46 @@ const HomePage = () => (
           backgroundSize: "cover",
         }}
       >
-        <Container className="centerText">
-          <h2 className="white centerText">Innovitive Start Up Solutions</h2>
-          <div>
-            <p className="heroText">
-              We partner with a fantastic variety of clients. Using cutting edge
-              technology, specialist skills and a passion for success, we
-              produce software experiences that look great and deliver on their
-              goals.
-            </p>
-          </div>
+        <Container fluid className="centerText">
+          <Row className="justify-content-md-center">
+            <Col md="auto">
+              <h2 className="white centerText">
+                Innovitive Start Up Solutions
+              </h2>
+            </Col>
+          </Row>
+          <Container className="heroText" fluid>
+            <Row>
+              <Col className="ptop50">
+                <p>
+                  We partner with a fantastic variety of clients. Using cutting
+                  edge technology, specialist skills and a passion for success,
+                  we produce software experiences that look great and deliver on
+                  their goals.
+                </p>
+              </Col>
+            </Row>
+          </Container>
         </Container>
       </Jumbotron>
-    </div>
-    <div className="paddinglr">
+    </Container>
+    <Container fluid className="ptop125 pbottom125 paddinglr">
       <Container fluid className=" ptop125 pbottom125 boxshadow">
         <Row>
           <Col className="paddingLrInner">
             <Jumbotron className="bgColorWhite" fluid>
               <Container fluid>
-                <div>
-                  <h1>Introduction</h1>
-                </div>
-                <div>
+                <Container fluid>
+                  <h1>Title</h1>
+                </Container>
+                <Container fluid>
                   <p className="ptop paratext">
                     Balu Technologies is a team of award winning designers and
                     software engineers. We work with startups, scaleups and
                     multinational corporates to design, develop and deploy
                     mission-led projects.
                   </p>
-                </div>
+                </Container>
               </Container>
             </Jumbotron>
           </Col>
@@ -62,8 +72,8 @@ const HomePage = () => (
           </Col>
         </Row>
       </Container>
-    </div>
-    <div className="paddinglr ptop125 pbottom125">
+    </Container>
+    <Container fluid className="ptop125 pbottom125 paddinglr">
       <Container fluid className=" ptop125 pbottom125 boxshadow">
         <Row>
           <Col className="paddingLrInner">
@@ -75,10 +85,10 @@ const HomePage = () => (
           <Col className="paddingLrInner">
             <Jumbotron className="bgColorWhite" fluid>
               <Container fluid>
-                <div>
+                <Container fluid>
                   <h1>Our People</h1>
-                </div>
-                <div>
+                </Container>
+                <Container fluid>
                   <p className="ptop paratext">
                     We're a purpose-focused team that works hand-in-hand with
                     our clients to bring their mission to life. We believe
@@ -86,14 +96,14 @@ const HomePage = () => (
                     deliver all our projects with our awesome permanent in-house
                     staff.
                   </p>
-                </div>
+                </Container>
               </Container>
             </Jumbotron>
           </Col>
         </Row>
       </Container>
-    </div>
-  </>
+    </Container>
+  </Container>
 );
 
 export default HomePage;

@@ -24,10 +24,13 @@ const Navigation = () => {
 
   return (
     <Navbar
+      expand="lg"
       className="nav"
+      variant="dark"
       style={{
         transition: "1s ease",
-        backgroundColor: navBackground ? "black" : "transparent",
+        backgroundColor: navBackground ? "#000" : "transparent",
+        color: navBackground ? "#000" : "#fff",
       }}
     >
       <Navbar.Brand>
