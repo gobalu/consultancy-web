@@ -32,7 +32,7 @@ a,
 a:visited,
 a:hover,
 a:active {
-  color: inherit;
+  color: #fff;
 }
 
 .dropdown-menu.show {

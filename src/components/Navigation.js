@@ -2,7 +2,6 @@ import React, { useEffect, useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Navigation.css";
 
 const Navigation = () => {
@@ -41,30 +40,6 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto"></Nav>
-        <NavDropdown
-          className="linkItems"
-          title="About us"
-          id="collasible-nav-dropdown"
-        >
-          <NavDropdown.Item className="linkItems">
-            <Nav.Link className="linkItems">
-              <NavLink activeClassName="active" to="/team">
-                The Team
-              </NavLink>
-            </Nav.Link>
-          </NavDropdown.Item>
-          <NavDropdown.Item>
-            <Nav.Link className="linkItems">
-              <NavLink
-                className="linkItems"
-                activeClassName="active"
-                to="/tech"
-              >
-                Tech
-              </NavLink>
-            </Nav.Link>
-          </NavDropdown.Item>
-        </NavDropdown>
 
         <Nav.Link className="linkItems">
           <NavLink
@@ -73,6 +48,11 @@ const Navigation = () => {
             to="/projects"
           >
             Projects
+          </NavLink>
+        </Nav.Link>
+        <Nav.Link className="linkItems">
+          <NavLink className="linkItems" activeClassName="active" to="/team">
+            The Team
           </NavLink>
         </Nav.Link>
         <Nav.Link className="linkItems">

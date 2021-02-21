@@ -11,7 +11,6 @@ import Home from "./pages/Home/HomePage";
 import Team from "./pages/TheTeam/TheTeamPage";
 import Contact from "./pages/Contact/ContactPage";
 import Projects from "./pages/Projects/ProjectsPage";
-import Tech from "./pages/Technology/TechnologyPage";
 
 import "./index.css";
 import { Container } from "react-bootstrap";
@@ -24,8 +23,6 @@ const App = () => (
       <Route exaxt path="/team" component={Team} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/projects" component={Projects} />
-      <Route exact path="/tech" component={Tech} />
-
       <div>
         <Footer />
       </div>
