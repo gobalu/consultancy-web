@@ -14,7 +14,7 @@ const profiles = [
     "github": "https://github.com/DaJaffaMan",
     "linkedin": "https://www.linkedin.com/in/jack-jefferies-0b904a99/",
     "profilePicture": "https://balu-technology-assets.s3-eu-west-1.amazonaws.com/jack-profile.jpg",
-    "sideImage": "https://i.ytimg.com/vi/pDN4NLRGJRQ/maxresdefault.jpg"
+    "sideImage": "https://balu-technology-assets.s3-eu-west-1.amazonaws.com/jack-side.jpg"
   },
   {
     "name": "Lewis Jefferies | SOFTWARE ENGINEER",
