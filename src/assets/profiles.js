@@ -18,7 +18,7 @@ const profiles = [
   },
   {
     "name": "Lewis Jefferies | SOFTWARE ENGINEER",
-    "description": "Ben is an experienced Software Engineer, who has had extensive exposure to Open Banking, along with a career that has covered Frontend, Backend and Mobile Development over the past 10 years. Driven by the shear love of software development, he takes pride in providing the best solution to the problems he faces. As a Software Engineer, he has completed many open-source project that are available to view on his GitHub. In his spare time, he loves to go cycling and enjoys flying his drone.\",",
+    "description": "Lewis is a skilled Software Engineer who primarily works with Java, but loves to work with new and modern tech. He has a be exposed to a combination Backend, Frontend, Dev-ops and Mobile Development in last 5 years and continually wants to add more skills to his tool belt. He has worked on open-source projects that are available to view on his GitHub. In his spare time, he enjoys golf, cricket, and playing 11-a-side football for Henbury FC.",
     "github": "https://github.com/ljefferies98",
     "linkedin": "https://www.linkedin.com/in/lewis-jefferies-323742147/",
     "profilePicture": "https://balu-technology-assets.s3-eu-west-1.amazonaws.com/lewis-profile.jpg",
