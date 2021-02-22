@@ -22,7 +22,7 @@ const Bio = (props) => {
               display: "flex",
               justifyContent: "center"
             }}>
-              <img style={styles.bioProfile} src={props.person.profilePicture} />
+              <img style={styles.bioProfile} src={props.person.profilePicture} alt="profile-picture"/>
             </Container>
           </Col>
           <Col xs={4} style={{
