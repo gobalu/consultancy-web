@@ -20,7 +20,7 @@ const Footer = () => {
       <div className="social-footer-icons">
         <ul className="menu simple">
           <li>
-            <a href="https://www.linkedin.com/">
+            <a href="https://www.linkedin.com/company/balu-technologies">
               <i className="fa fa-linkedin"></i>
             </a>
           </li>
