@@ -6,7 +6,7 @@ const profiles = [
     "linkedin": "https://www.linkedin.com/in/ben-jefferies-0bb1b24b/",
     "strava": "https://www.strava.com/athletes/18464706/",
     "profilePicture": "https://balu-technology-assets.s3-eu-west-1.amazonaws.com/ben-profile.jpg",
-    "sideImage": "https://i.ytimg.com/vi/e2klKMj4JEw/maxresdefault.jpg"
+    "sideImage": "https://balu-technology-assets.s3-eu-west-1.amazonaws.com/ben-side.jpg"
   },
   {
     "name": "Jack Jefferies | SOFTWARE ENGINEER",
