@@ -22,7 +22,7 @@ const profiles = [
     "github": "https://github.com/ljefferies98",
     "linkedin": "https://www.linkedin.com/in/lewis-jefferies-323742147/",
     "profilePicture": "https://balu-technology-assets.s3-eu-west-1.amazonaws.com/lewis-profile.jpg",
-    "sideImage": "https://i.ytimg.com/vi/pDN4NLRGJRQ/maxresdefault.jpg"
+    "sideImage": "https://balu-technology-assets.s3-eu-west-1.amazonaws.com/lewis-side.jpg"
   },
   {
     "name": "Max Webster-Khan | FRONTEND ENGINEER",
