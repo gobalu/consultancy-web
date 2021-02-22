@@ -65,7 +65,8 @@ const Bio = (props) => {
 const styles = {
   bioLinks: {
     maxWidth: 32,
-    marginHorizontal: 10
+    marginLeft: 10
+    marginRight: 10
   }
 }
 
