@@ -40,9 +40,9 @@ const Bio = (props) => {
               display: "flex",
               alignItems: "center"
             }}>
-              <a href={props.person.github}><Image src={github} style={{ maxWidth: 32, marginRight: 10 }} /></a>
-              <a href={props.person.linkedin}><Image src={linkedin} style={{ maxWidth: 32 }} /></a>
-              {props.person.strava && <a href={props.person.strava}><Image src={strava} style={{ maxWidth: 32 }} /></a>}
+              <a href={props.person.github}><Image src={github} style={styles.bioLinks} /></a>
+              <a href={props.person.linkedin}><Image src={linkedin} style={styles.bioLinks} /></a>
+              {props.person.strava && <a href={props.person.strava}><Image src={strava} style={styles.bioLinks} /></a>}
             </Container>
           </Col>
           <Col xs={5} style={{
@@ -61,5 +61,12 @@ const Bio = (props) => {
     </>
   )
 };
+
+const styles = {
+  bioLinks: {
+    maxWidth: 32,
+    marginHorizontal: 10
+  }
+}
 
 export default Bio;
