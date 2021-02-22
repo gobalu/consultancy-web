@@ -10,7 +10,7 @@ const profiles = [
   },
   {
     "name": "Jack Jefferies | SOFTWARE ENGINEER",
-    "description": "Jack is an experienced Software Engineer, originally a Business Intelligence apprentice, he's transitioned a full stack developer. He has a wealth of experience in Dev-ops, Frontend, Backend, and Mobile Development from the past 8 years. He has worked on a handful of open-source project that are available to view on his GitHub. In his spare time, he loves gaming, and playing 5 a side football with his friends.",
+    "description": "Jack is an experienced Software Engineer, originally a Business Intelligence apprentice, he has now transitioned into a full stack developer. He has a wealth of experience in Dev-ops, Frontend, Backend, and Mobile Development from the past 8 years. He has worked on a handful of open-source project that are available to view on his GitHub. In his spare time, he loves gaming, and playing 5 a side football with his friends.",
     "github": "https://github.com/DaJaffaMan",
     "linkedin": "https://www.linkedin.com/in/jack-jefferies-0b904a99/",
     "profilePicture": "https://balu-technology-assets.s3-eu-west-1.amazonaws.com/jack-profile.jpg",
