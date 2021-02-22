@@ -7,6 +7,7 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import github from "../assets/github-icon.png";
 import linkedin from "../assets/linkedin-icon.png";
+import strava from "../assets/strava-icon.png";
 
 const Bio = (props) => {
   return (
@@ -41,6 +42,7 @@ const Bio = (props) => {
             }}>
               <a href={props.person.github}><Image src={github} style={{ maxWidth: 32, marginRight: 10 }} /></a>
               <a href={props.person.linkedin}><Image src={linkedin} style={{ maxWidth: 32 }} /></a>
+              {props.person.strava && <a href={props.person.strava}><Image src={strava} style={{ maxWidth: 32 }} /></a>}
             </Container>
           </Col>
           <Col xs={5} style={{
