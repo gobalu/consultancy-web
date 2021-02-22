@@ -22,7 +22,7 @@ const Bio = (props) => {
               display: "flex",
               justifyContent: "center"
             }}>
-              <Image style={{ maxWidth: 128, }} src={props.person.profilePicture} roundedCircle />
+              <img style={styles.bioProfile} src={props.person.profilePicture} />
             </Container>
           </Col>
           <Col xs={4} style={{
@@ -67,6 +67,10 @@ const styles = {
     maxWidth: 24,
     marginLeft: 8,
     marginRight: 8
+  },
+  bioProfile: {
+    maxWidth: 128,
+    borderRadius: 64,
   }
 }
 
