@@ -49,7 +49,7 @@ const HomePage = () => (
             <Jumbotron className="bgColorWhite" fluid>
               <Container fluid>
                 <Container fluid>
-                  <h1>Title</h1>
+                  <h1>Us</h1>
                 </Container>
                 <Container fluid>
                   <p className="ptop paratext">
