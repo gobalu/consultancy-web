@@ -26,7 +26,7 @@ const profiles = [
   },
   {
     "name": "Max Webster-Khan | FRONTEND ENGINEER",
-    "description": "Ben is an experienced Software Engineer, who has had extensive exposure to Open Banking, along with a career that has covered Frontend, Backend and Mobile Development over the past 10 years. Driven by the shear love of software development, he takes pride in providing the best solution to the problems he faces. As a Software Engineer, he has completed many open-source project that are available to view on his GitHub. In his spare time, he loves to go cycling and enjoys flying his drone.\",",
+    "description": "Max started his journey in tech 18 months ago through a front end developer apprenticeship. During his time as an apprenticeship, he has worked with esteemed clients building marketing content and websites. In his spare time, he loves to hit the gym and walk his dog.",
     "github": "https://github.com/maxwebsterkhan",
     "linkedin": "https://www.linkedin.com/in/max-webster-khan/",
     "profilePicture": "../assets/images/bio/max-profile.jpg",
