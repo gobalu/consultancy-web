@@ -18,7 +18,7 @@ import { Container } from "react-bootstrap";
 const App = () => {
   const location = useLocation();
   const navigation =
-    location.pathname === "/" || location.pathname === "/projects" ? (
+    location.pathname === "/" ? (
       <Navigation />
     ) : (
       <StaticNavigation />
