@@ -4,15 +4,13 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
-import Carousel from "react-bootstrap/Carousel";
-import bgimage from "../Home/Assets/bgimage.jpg";
 import powerful from "../../assets/powerful.svg";
 import businessdeal from "../../assets/businessdeal.svg";
 import coffee from "../../assets/coffee.svg";
 
 const ProjectPage = () => (
-  <Container fluid style={{ padding: 0 }}>
-    <Carousel>
+  <Container fluid style={{ paddingTop: "80px" }}>
+    {/* <Carousel>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -53,7 +51,7 @@ const ProjectPage = () => (
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-    </Carousel>
+    </Carousel> */}
     <Container style={{ paddingTop: "100px" }}>
       <Row>
         <Col sm={4}>
