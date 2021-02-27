@@ -55,11 +55,6 @@ const Navigation = () => {
             The Team
           </NavLink>
         </Nav.Link>
-        <Nav.Link className="linkItems">
-          <NavLink className="linkItems" activeClassName="active" to="/contact">
-            Get In Touch
-          </NavLink>
-        </Nav.Link>
       </Navbar.Collapse>
     </Navbar>
   );

@@ -10,7 +10,6 @@ import StaticNavigation from "./components/StaticNavigation";
 // PAGES
 import Home from "./pages/Home/HomePage";
 import Team from "./pages/TheTeam/TheTeamPage";
-import Contact from "./pages/Contact/ContactPage";
 import Projects from "./pages/Projects/ProjectsPage";
 
 import "./index.css";
@@ -30,7 +29,6 @@ const App = () => {
       <Container className="pnone" fluid>
         <Route exact={true} path="/" component={Home} />
         <Route exaxt path="/team" component={Team} />
-        <Route exact path="/contact" component={Contact} />
         <Route exact path="/projects" component={Projects} />
         <div>
           <Footer />
