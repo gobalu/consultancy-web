@@ -5,8 +5,7 @@ import profiles from "../../assets/profiles";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import bgimage from "../Home/Assets/bgimage.jpg";
-import Jumbotron from "react-bootstrap/Jumbotron";
+
 import Image from "react-bootstrap/Image";
 import Programmer from "../../assets/undraw_programmer_imem.svg";
 import CodeReview from "../../assets/codereview.svg";
@@ -18,25 +17,7 @@ const bios = profiles.map((profile) => <Bio person={profile} />);
 const TheTeamPage = () => {
   return (
     <>
-      <Container fluid className="plr0">
-        <Jumbotron
-          className="height"
-          fluid
-          style={{
-            backgroundImage: `url(${bgimage})`,
-            backgroundSize: "cover",
-          }}
-        >
-          <Container fluid className="centerText">
-            <Row className="justify-content-md-center">
-              <Col md="auto">
-                <h2 className="white centerText">Meet the team</h2>
-              </Col>
-            </Row>
-          </Container>
-        </Jumbotron>
-      </Container>
-      <Container style={{ paddingTop: "100px" }}>
+      <Container style={{ paddingTop: "180px" }}>
         <Row>
           <Col sm={4}>
             <Container>
@@ -78,7 +59,7 @@ const TheTeamPage = () => {
         </Row>
       </Container>
 
-      <Container>
+      <Container style={{ paddingBottom: "100px" }}>
         <Col>
           <Row className="paddingTop">{bios}</Row>
         </Col>

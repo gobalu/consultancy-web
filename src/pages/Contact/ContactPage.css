@@ -1,0 +1,6 @@
+.form {
+  width: 800px;
+  box-shadow: 0 1.5px 4px rgb(20 0 0 / 20%),
+    8px -10px 23px hsl(0deg 0% 100% / 90%);
+  padding: 60px 80px;
+}
