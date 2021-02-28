@@ -1,6 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
 import { HashRouter as Router, Route, useLocation } from "react-router-dom";
+import { Container } from "react-bootstrap";
+
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -11,15 +13,16 @@ import StaticNavigation from "./components/StaticNavigation";
 import Home from "./pages/Home/HomePage";
 import Team from "./pages/TheTeam/TheTeamPage";
 import Projects from "./pages/Projects/ProjectsPage";
+import Tech from "./pages/Tech/TechPage";
+import StickyArrow from "./components/StickyArrow";
 
 import "./index.css";
-import { Container } from "react-bootstrap";
 
 const App = () => {
   const location = useLocation();
   const navigation =
     location.pathname === "/" ? (
-      <Navigation />
+      <Navigation /> || location.pathname === "/tech"
     ) : (
       <StaticNavigation />
     );
@@ -30,10 +33,12 @@ const App = () => {
         <Route exact={true} path="/" component={Home} />
         <Route exaxt path="/team" component={Team} />
         <Route exact path="/projects" component={Projects} />
+        <Route exact path="/tech" component={Tech} />
         <div>
           <Footer />
         </div>
       </Container>
+      <StickyArrow />
     </>
   );
 };

@@ -7,6 +7,7 @@ import React, { useEffect, useState } from "react";
 import Row from "react-bootstrap/Row";
 import bgimage from "./Assets/bgimage.jpg";
 import { NavLink } from "react-router-dom";
+import StickyArrow from "../../components/StickyArrow";
 
 const words = ["The Future", "Balu"];
 
@@ -165,6 +166,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <StickyArrow />
     </Container>
   );
 };

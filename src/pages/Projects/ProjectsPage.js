@@ -63,7 +63,7 @@ const ProjectPage = () => (
           <Container>
             <h1>What is Balu?</h1>
           </Container>
-          <Container>
+          <Container style={{ paddingTop: "1rem" }}>
             Balu is an application which is aiming to bring you the services you
             require effortlessly all at the few touches of a button.
           </Container>
@@ -81,7 +81,7 @@ const ProjectPage = () => (
           <Container>
             <h1>Why Balu?</h1>
           </Container>
-          <Container>
+          <Container style={{ paddingTop: "1rem" }}>
             Ever needed a service you were unfamiliar with and didn't want to
             sift through pages of reviews to find the services you need? no
             longer will that be an issue, with personal reviews from real users
@@ -107,7 +107,7 @@ const ProjectPage = () => (
           <Container>
             <h1>Our hopes with Balu</h1>
           </Container>
-          <Container>
+          <Container style={{ paddingTop: "1rem" }}>
             We hope to bring users and workers together with a professional,
             intuative & easy to use app to revolutionise small businesses hoping
             to get their name out there and providing users a safe, easy and

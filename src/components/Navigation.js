@@ -55,6 +55,11 @@ const Navigation = () => {
             The Team
           </NavLink>
         </Nav.Link>
+        <Nav.Link className="linkItems">
+          <NavLink className="linkItems" activeClassName="active" to="/tech">
+            Tech
+          </NavLink>
+        </Nav.Link>
       </Navbar.Collapse>
     </Navbar>
   );

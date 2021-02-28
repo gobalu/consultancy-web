@@ -30,7 +30,7 @@ const profiles = [
   {
     name: "Max Webster-Khan | FRONTEND ENGINEER",
     description:
-      "Max started his journey in tech 18 months ago through a front end developer apprenticeship. During his time as an apprenticeship, he has worked with esteemed clients building marketing content and websites. In his spare time, he loves to hit the gym and walk his dog.",
+      "Max started his journey in tech 18 months ago through a software engineering apprenticeship. During his time as an apprenticeship, he has worked with esteemed clients such as BMW, Electrolux & the NHS building marketing content and websites. In his spare time, he enjoys weight training and walking his dog.",
     github: "https://github.com/maxwebsterkhan",
     linkedin: "https://www.linkedin.com/in/max-webster-khan/",
     profilePicture: "../assets/images/bio/max-profile.jpg",

@@ -7,8 +7,8 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
 import Image from "react-bootstrap/Image";
-import Programmer from "../../assets/undraw_programmer_imem.svg";
 import CodeReview from "../../assets/codereview.svg";
+import StickyArrow from "../../components/StickyArrow";
 
 import "./TeamPage.css";
 
@@ -21,7 +21,7 @@ const TheTeamPage = () => {
         <Row>
           <Col sm={4}>
             <Container>
-              <Image src={Programmer} rounded />
+              <Image src={CodeReview} rounded />
             </Container>
           </Col>
           <Col sm={8}>
@@ -29,7 +29,7 @@ const TheTeamPage = () => {
               <Container>
                 <h1>Who are we?</h1>
               </Container>
-              <Container>
+              <Container style={{ paddingTop: "1rem" }}>
                 We're a purpose-focused team that works hand-in-hand with our
                 clients to bring their mission to life. We believe small,
                 focused teams can deliver exceptional results, and deliver all
@@ -39,26 +39,7 @@ const TheTeamPage = () => {
           </Col>
         </Row>
       </Container>
-      <Container style={{ paddingTop: "100px" }}>
-        <Row>
-          <Col sm={4}>
-            <Container>
-              <Image src={CodeReview} rounded />
-            </Container>
-          </Col>
-          <Col sm={8}>
-            <Container>
-              <h1>Tech we use</h1>
-            </Container>
-            <Container>
-              We use the latest proven technologies in our projects. We know
-              these will deliver on the scalability, reliability, performance
-              and security needs of our customers.
-            </Container>
-          </Col>
-        </Row>
-      </Container>
-
+      <StickyArrow />
       <Container style={{ paddingBottom: "100px" }}>
         <Col>
           <Row className="paddingTop">{bios}</Row>
