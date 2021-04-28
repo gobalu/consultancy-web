@@ -14,7 +14,6 @@ import Home from "./pages/Home/HomePage";
 import Team from "./pages/TheTeam/TheTeamPage";
 import Projects from "./pages/Projects/ProjectsPage";
 import Tech from "./pages/Tech/TechPage";
-import StickyArrow from "./components/StickyArrow";
 
 import "./index.css";
 
@@ -38,7 +37,6 @@ const App = () => {
           <Footer />
         </div>
       </Container>
-      <StickyArrow />
     </>
   );
 };
