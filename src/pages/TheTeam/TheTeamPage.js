@@ -8,7 +8,6 @@ import Row from "react-bootstrap/Row";
 
 import Image from "react-bootstrap/Image";
 import CodeReview from "../../assets/codereview.svg";
-import StickyArrow from "../../components/StickyArrow";
 
 import "./TeamPage.css";
 
@@ -39,7 +38,6 @@ const TheTeamPage = () => {
           </Col>
         </Row>
       </Container>
-      <StickyArrow />
       <Container style={{ paddingBottom: "100px" }}>
         <Col>
           <Row className="paddingTop">{bios}</Row>
