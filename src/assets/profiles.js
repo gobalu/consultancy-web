@@ -27,6 +27,7 @@ const profiles = [
     github: "https://github.com/ljefferies98",
     linkedin: "https://www.linkedin.com/in/lewis-jefferies-323742147/",
     profilePicture: "../assets/images/bio/lewis-profile.jpg",
+    cv: "https://docs.google.com/document/d/113IIO2n0WNvi9j7BXvZrh2QIQ4rKMWrUGHQ3nEi8glc/edit?usp=drivesdk",
     sideImage: "../assets/images/bio/lewis-side.jpg",
   },
   {
