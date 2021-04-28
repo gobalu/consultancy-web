@@ -16,7 +16,7 @@ const profiles = [
       "Jack is an experienced Software Engineer, originally a Business Intelligence apprentice, he's transitioned to a full stack developer. He has a wealth of experience in Dev-ops, Frontend, Backend, and Mobile Development from the past 8 years. He has worked on a handful of open-source project that are available to view on his GitHub. In his spare time, he loves gaming, and playing 5 a side football with his friends.",
     github: "https://github.com/DaJaffaMan",
     linkedin: "https://docs.google.com/document/d/1p0ume2JrkXyK-aZreh6JZL1hZPpuIuiZwWq1fuv8Pwg/edit?usp=sharing",
-    cv: "https://www.strava.com/athletes/18464706/",
+    cv: "https://docs.google.com/document/d/1p0ume2JrkXyK-aZreh6JZL1hZPpuIuiZwWq1fuv8Pwg/edit?usp=sharing",
     profilePicture: "../assets/images/bio/jack-profile.jpg",
     sideImage: "../assets/images/bio/jack-side.jpg",
   },
