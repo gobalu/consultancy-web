@@ -38,6 +38,7 @@ const profiles = [
     linkedin: "https://www.linkedin.com/in/max-webster-khan/",
     profilePicture: "../assets/images/bio/max-profile.jpg",
     sideImage: "../assets/images/bio/max-side.jpg",
+    cv: "https://docs.google.com/document/d/127bMZC1TDc0dy752FmypY4AN5JZ7I5K5StQap9qpeUQ/edit?usp=sharing",
   },
 ];
 
