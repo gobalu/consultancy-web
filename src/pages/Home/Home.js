@@ -1,7 +1,6 @@
 import './HomePage.scss';
 
-import React, { useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import React  from 'react';
 import Hero from '../../components/Hero/Hero';
 import TechPage from '../Tech/TechPage';
 import Footer from '../../components/Footer/Footer';
