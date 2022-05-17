@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import Bio from "../../components/Bio";
+import Bio from '../../components/Bio/Bio';
 import profiles from "../../assets/profiles";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";

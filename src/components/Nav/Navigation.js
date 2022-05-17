@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import "./Navigation.css";
+import "./Navigation.scss";
 
 const Navigation = () => {
   const [navBackground, setNavBackground] = useState(false);
@@ -27,9 +27,9 @@ const Navigation = () => {
       className="nav"
       variant="dark"
       style={{
-        transition: "1s ease",
-        backgroundColor: navBackground ? "#000" : "transparent",
-        color: navBackground ? "#000" : "#fff",
+        transition: '1s ease',
+        backgroundColor: navBackground ? '#000' : 'transparent',
+        color: navBackground ? '#000' : '#fff',
       }}
     >
       <Navbar.Brand>
@@ -40,21 +40,6 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto"></Nav>
-
-        <Nav.Link className="linkItems">
-          <NavLink
-            className="linkItems"
-            activeClassName="active"
-            to="/projects"
-          >
-            Projects
-          </NavLink>
-        </Nav.Link>
-        <Nav.Link className="linkItems">
-          <NavLink className="linkItems" activeClassName="active" to="/team">
-            The Team
-          </NavLink>
-        </Nav.Link>
         <Nav.Link className="linkItems">
           <NavLink className="linkItems" activeClassName="active" to="/tech">
             Tech

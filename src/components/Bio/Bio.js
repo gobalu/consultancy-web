@@ -1,14 +1,14 @@
-import "./Bio.css";
+import "./Bio.scss";
 
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import React from "react";
 import Row from "react-bootstrap/Row";
-import github from "../assets/github-icon.png";
-import linkedin from "../assets/linkedin-icon.png";
-import strava from "../assets/strava-icon.png";
-import cv from "../assets/cv-icon.png";
+import github from "../../assets/github-icon.png";
+import linkedin from "../../assets/linkedin-icon.png";
+import strava from "../../assets/strava-icon.png";
+import cv from "../../assets/cv-icon.png";
 
 const Bio = (props) => {
   return (
