@@ -15,20 +15,6 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto"></Nav>
-        {/* <Nav.Link className="linkItems">
-          <NavLink
-            className="linkItems"
-            activeClassName="active"
-            to="/projects"
-          >
-            Projects
-          </NavLink>
-        </Nav.Link> */}
-        {/* <Nav.Link className="linkItems">
-          <NavLink className="linkItems" activeClassName="active" to="/team">
-            The Team
-          </NavLink>
-        </Nav.Link> */}
         <Nav.Link className="linkItems">
           <NavLink className="linkItems" activeClassName="active" to="/tech">
             Tech

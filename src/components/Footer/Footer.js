@@ -1,5 +1,4 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
 import CopyrightIcon from '@material-ui/icons/Copyright';
 import './Footer.scss';
 import useModal from '../useModal/useModal';
@@ -8,10 +7,6 @@ import ScrollArrow from '../ScrollArrow/ScrollArrow';
 
 const Footer = () => {
   const { isShowing, toggle } = useModal();
-
-  const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
 
   return (
     <footer className="social-footer">
