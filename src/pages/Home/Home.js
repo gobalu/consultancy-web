@@ -36,8 +36,7 @@ const HomePage = () => {
                 </span>
                 <span className="homepage__box-title">Architecture</span>
                 <p className="homepage__box-text">
-                  "Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit..."
+                  Breaking complex problems down into simple architecture that is both scalable, and recoverable in the worst case scenario, our architectural approach will give you peace of mind
                 </p>
               </div>
             </div>
@@ -48,8 +47,7 @@ const HomePage = () => {
                 </span>
                 <span className="homepage__box-title">Technical Solutions</span>
                 <p className="homepage__box-text">
-                  "Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit..."
+                  Whether its a migration to the Cloud, managing your SaaS platform, or infrastructure configuration and deployment, you can trust our technical solutions will be reliable and following current best practices
                 </p>
               </div>
             </div>
