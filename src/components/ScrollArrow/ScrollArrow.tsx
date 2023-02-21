@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Icon } from '@iconify/react';
 import './ScrollArrow.scss';
 
-const ScrollArrow = () => {
+export const ScrollArrow = () => {
   const [showScroll, setShowScroll] = useState(false);
 
   const checkScrollTop = () => {

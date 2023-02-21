@@ -1,11 +1,11 @@
-import React from 'react';
-import CopyrightIcon from '@material-ui/icons/Copyright';
-import './Footer.scss';
-import useModal from '../useModal/useModal';
-import Modal from '../Modal/Modal';
-import ScrollArrow from '../ScrollArrow/ScrollArrow';
+import React from "react";
+import CopyrightIcon from "@material-ui/icons/Copyright";
+import "./Footer.scss";
+import useModal from "../useModal/useModal";
+import Modal from "../Modal/Modal";
+import ScrollArrow from "../ScrollArrow/ScrollArrow";
 
-const Footer = () => {
+export const Footer = () => {
   const { isShowing, toggle } = useModal();
 
   return (

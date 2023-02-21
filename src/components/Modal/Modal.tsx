@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './Modal.scss';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./Modal.scss";
 
-const Modal = ({ isShowing, hide }) =>
+export const Modal = ({ isShowing, hide }) =>
   isShowing
     ? ReactDOM.createPortal(
         <React.Fragment>
@@ -151,7 +151,7 @@ const Modal = ({ isShowing, hide }) =>
             </div>
           </div>
         </React.Fragment>,
-        document.body,
+        document.body
       )
     : null;
 

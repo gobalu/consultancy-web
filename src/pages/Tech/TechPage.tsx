@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 import './TechPage.scss';
 
-const TechPage = () => {
+export const TechPage = () => {
   return (
     <div>
       <div className="techpage-title">Our Technologies</div>
