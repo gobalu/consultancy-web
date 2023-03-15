@@ -5,6 +5,7 @@ import Hero from "../../components/Hero/Hero";
 import TechPage from "../Tech/TechPage";
 import Footer from "../../components/Footer/Footer";
 import { Icon } from "@iconify/react";
+import ContactUs from "../../components/ContactUs/ContactUs";
 
 export const HomePage = () => {
   return (
@@ -91,6 +92,9 @@ export const HomePage = () => {
         <div className="p homepage__fixed">
           <TechPage />
         </div>
+      </div>
+      <div>
+        <ContactUs />
       </div>
       <div className="homepage__section homepage__section--footer">
         <div className="homepage__fixed--footer">
