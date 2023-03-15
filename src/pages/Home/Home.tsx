@@ -1,12 +1,12 @@
-import './HomePage.scss';
+import "./HomePage.scss";
 
-import React  from 'react';
-import Hero from '../../components/Hero/Hero';
-import TechPage from '../Tech/TechPage';
-import Footer from '../../components/Footer/Footer';
-import { Icon } from '@iconify/react';
+import React from "react";
+import Hero from "../../components/Hero/Hero";
+import TechPage from "../Tech/TechPage";
+import Footer from "../../components/Footer/Footer";
+import { Icon } from "@iconify/react";
 
-const HomePage = () => {
+export const HomePage = () => {
   return (
     <>
       <Hero />
@@ -36,7 +36,9 @@ const HomePage = () => {
                 </span>
                 <span className="homepage__box-title">Architecture</span>
                 <p className="homepage__box-text">
-                  Breaking complex problems down into simple architecture that is both scalable, and recoverable in the worst case scenario, our architectural approach will give you peace of mind
+                  Breaking complex problems down into simple architecture that
+                  is both scalable, and recoverable in the worst case scenario,
+                  our architectural approach will give you peace of mind
                 </p>
               </div>
             </div>
@@ -47,7 +49,10 @@ const HomePage = () => {
                 </span>
                 <span className="homepage__box-title">Technical Solutions</span>
                 <p className="homepage__box-text">
-                  Whether its a migration to the Cloud, managing your SaaS platform, or infrastructure configuration and deployment, you can trust our technical solutions will be reliable and following current best practices
+                  Whether its a migration to the Cloud, managing your SaaS
+                  platform, or infrastructure configuration and deployment, you
+                  can trust our technical solutions will be reliable and
+                  following current best practices
                 </p>
               </div>
             </div>

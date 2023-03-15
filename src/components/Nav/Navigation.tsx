@@ -6,7 +6,7 @@ import "./Navigation.scss";
 
 const Navigation = () => {
   const [navBackground, setNavBackground] = useState(false);
-  const navRef = useRef();
+  const navRef = useRef(false);
   navRef.current = navBackground;
   useEffect(() => {
     const handleScroll = () => {

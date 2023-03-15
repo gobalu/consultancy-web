@@ -10,7 +10,7 @@ import linkedin from "../../assets/linkedin-icon.png";
 import strava from "../../assets/strava-icon.png";
 import cv from "../../assets/cv-icon.png";
 
-const Bio = (props) => {
+const Bio = (props: any) => {
   return (
     <>
       <Container className="bio">
