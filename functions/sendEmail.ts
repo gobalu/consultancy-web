@@ -62,21 +62,23 @@ const handler: Handler = async (event, context) => {
   const emailBody = createEmailBody(enquiry);
 
   try {
-    const message = await client.sendAsync({
+    await client.sendAsync({
       text: emailBody,
       from: "Enquiries <enquiries@balu.technology>",
-      to: "Lewis <lewisjefferies@balu.technology>",
+      to: "Balu <hello@balu.technology>",
       subject: `New Enquiry from ${enquiry.name}`,
     });
-    console.log(message);
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ message: "Email sent" }),
+    };
   } catch (err) {
     console.error(err);
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ message: "Email failed to send" }),
+    };
   }
-
-  return {
-    statusCode: 200,
-    body: JSON.stringify({ message: "Hello World" }),
-  };
 };
 
 const createEmailBody = (enquiry: Enquiry) => {
