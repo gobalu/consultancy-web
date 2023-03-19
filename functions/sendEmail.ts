@@ -78,7 +78,7 @@ const handler: Handler = async (event, context) => {
       statusCode: 500,
       body: JSON.stringify({ message: "Email failed to send" }),
     };
-  }
+  } 
 };
 
 const createEmailBody = (enquiry: Enquiry) => {
