@@ -1,14 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-// NAVIGATION
-
-// PAGES
 import Home from './pages/Home/Home';
-
 import './index.scss';
 
 const App = () => {
